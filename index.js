@@ -32,6 +32,6 @@ app.get('/', function (req, res) {
 })
 
 // Listen for connections.
-app.listen(3000, function () {
+app.listen(process.env.PORT, function () {
     console.log('I am awake!')
 })
